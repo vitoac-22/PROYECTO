@@ -5,7 +5,7 @@ import streamlit as st
 
 def datos_empresa():
     # Ruta completa al archivo CSV
-    ruta_archivo = "BD\symbols_valid_meta.csv"
+    ruta_archivo = "BD/symbols_valid_meta.csv"
 
     # Cargar el archivo CSV en un DataFrame
     nombre_empresa = pd.read_csv(ruta_archivo)
