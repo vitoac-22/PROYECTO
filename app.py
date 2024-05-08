@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import yfinance as yf
 import matplotlib.pyplot as plt
-import datos_empresa as datos
+import API.datos_empresa as datos
 
 # Título de la aplicación
 st.title("Análisis Financiero Interactivo de Stocks")
